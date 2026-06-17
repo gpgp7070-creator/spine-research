@@ -33,31 +33,9 @@ export function ConclusionSection() {
           viewport={{ once: true }}
           className="p-8 rounded-2xl border border-accent/20 bg-card backdrop-blur-sm mb-8"
         >
-          <p className="text-lg leading-relaxed text-foreground/90 mb-8">
+          <p className="text-lg leading-relaxed text-foreground/90">
             {researchData.conclusion}
           </p>
-
-          <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-8">
-            <h3 className="text-lg font-bold text-accent mb-4">Key Takeaways</h3>
-            <ul className="space-y-3">
-              <li className="flex gap-3">
-                <span className="text-primary font-bold">→</span>
-                <span className="text-foreground/90">Integrated postural and core training yields superior outcomes</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent font-bold">→</span>
-                <span className="text-foreground/90">Safe, practical implementation across diverse clinical settings</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-primary font-bold">→</span>
-                <span className="text-foreground/90">Significant long-term improvements in functional mobility and pain</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent font-bold">→</span>
-                <span className="text-foreground/90">Evidence supports paradigm shift in rehabilitation protocols</span>
-              </li>
-            </ul>
-          </div>
         </motion.div>
 
         <motion.div
