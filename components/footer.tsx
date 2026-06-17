@@ -22,8 +22,11 @@ export function Footer() {
             <h4 className="font-bold text-foreground mb-4">Research</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#abstract" className="hover:text-accent transition">Abstract</a></li>
+              <li><a href="#conclusion" className="hover:text-accent transition">Introduction</a></li>
+            
               <li><a href="#methodology" className="hover:text-accent transition">Methodology</a></li>
               <li><a href="#results" className="hover:text-accent transition">Results</a></li>
+              <li><a href="#conclusion" className="hover:text-accent transition">Discussion</a></li>
               <li><a href="#conclusion" className="hover:text-accent transition">Conclusion</a></li>
             </ul>
           </motion.div>
