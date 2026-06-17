@@ -52,7 +52,7 @@ export function Navigation() {
           transition={{ delay: 0.2 }}
           className="text-xl font-bold text-accent"
         >
-          Spine Research
+           Research
         </motion.div>
 
         {/* Desktop Navigation */}

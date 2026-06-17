@@ -31,13 +31,14 @@ export function HeroSection() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance leading-tight">
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Spine Rehabilitation
-            </span>
-            <br />
-            <span className="text-foreground">Through Postural Awareness</span>
-          </h1>
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight text-center max-w-4xl mx-auto px-4">
+  <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent block mb-4">
+    The Correlation Between Postural Awareness, Postural Habits,
+  </span>
+  <span className="text-foreground text-2xl md:text-4xl lg:text-5xl">
+    and the Prevalence of Mechanical Back Pain Among Suez University Students: A Cross-Sectional Study
+  </span>
+</h1>
         </motion.div>
 
         <motion.p

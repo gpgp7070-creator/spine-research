@@ -81,7 +81,7 @@ export function DashboardSection() {
                   cx="50%"
                   cy="50%"
                   labelLine={false}
-                  label={({ name, percentage }) => `${name} ${percentage}%`}
+                  label={(entry: any) => `${entry.name} ${entry.percentage}%`}
                   outerRadius={100}
                   fill="#8884d8"
                   dataKey="value"
@@ -155,7 +155,7 @@ export function DashboardSection() {
                   cx="50%"
                   cy="50%"
                   labelLine={false}
-                  label={({ name, percentage }) => `${name} ${percentage}%`}
+                  label={(entry: any) => `${entry.name} ${entry.percentage}%`}
                   outerRadius={100}
                   fill="#8884d8"
                   dataKey="value"

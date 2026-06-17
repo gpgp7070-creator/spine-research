@@ -1,12 +1,13 @@
 export const researchData = {
-  title: 'Innovative Approaches to Spine Rehabilitation Through Postural Awareness and Core Strengthening',
+  // ... داخل export const researchData = {
+  title: 'The Correlation Between Postural Awareness, Postural Habits, and the Prevalence of Mechanical Back Pain Among Suez University Students: A Cross-Sectional Study',
   authors: ['Graduate Research Team'],
   date: '2026',
   
-  // ابحث عن هذا الجزء داخل ملف researchData
-abstract: 'This study investigates the efficacy of integrated postural awareness training combined with targeted core strengthening exercises in improving spinal health outcomes. Using a randomized controlled trial design with 120 participants, we evaluated changes in pain severity, postural mechanics, and functional mobility over a 12-week intervention period. Results demonstrated significant improvements in all measured outcomes, with participants showing 43% reduction in pain severity and 67% improvement in postural awareness scores.',
+  abstract: 'This cross-sectional study investigates the correlation between postural awareness, postural habits, and the prevalence of mechanical back pain among Suez University students. By assessing the postural alignment and daily habits of a diverse student cohort, this research identifies critical risk factors contributing to spinal discomfort in an academic environment. Our findings highlight the significant impact of postural habits on spinal health and provide a foundation for implementing targeted awareness programs to mitigate the risk of chronic back pain in university populations.',
   
-  introduction: {
+  introduction: { 
+    // ... باقي الكود كما هو
     background: 'Spinal disorders represent a significant burden on healthcare systems and individual quality of life. Recent estimates suggest that approximately 80% of the population experiences spine-related pain at some point in their lives. Traditional rehabilitation approaches often focus on isolated muscle groups, missing the interconnected nature of spinal stability.',
     objective: 'To evaluate the effectiveness of an integrated postural awareness and core strengthening program in improving spinal health outcomes, functional mobility, and reducing pain in adults with subacute to chronic spinal pain.',
     significance: 'This research provides evidence for a holistic approach to spine rehabilitation that emphasizes postural education and functional core strengthening, potentially improving clinical outcomes and reducing healthcare costs.'
