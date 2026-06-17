@@ -57,7 +57,7 @@ export function DashboardSection() {
 
         {/* Key Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
-          <Counter value={120} label="Total Participants" delay={0} />
+          <Counter value={186} label="Total Participants" delay={0} />
           <Counter value={12} label="Week Duration" delay={0.1} />
           <Counter value={5} label="Outcome Measures" delay={0.2} />
           <Counter value={0} label="Serious Adverse Events" delay={0.3} />
