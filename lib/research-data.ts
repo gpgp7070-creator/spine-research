@@ -4,20 +4,20 @@ export const researchData = {
   authors: ['Graduate Research Team'],
   date: '2026',
   
-  abstract: 'This cross-sectional study investigates the correlation between postural awareness, postural habits, and the prevalence of mechanical back pain among Suez University students. By assessing the postural alignment and daily habits of a diverse student cohort, this research identifies critical risk factors contributing to spinal discomfort in an academic environment. Our findings highlight the significant impact of postural habits on spinal health and provide a foundation for implementing targeted awareness programs to mitigate the risk of chronic back pain in university populations.',
+  abstract: 'This cross-sectional study investigates the correlation between postural awareness, postural habits, and the prevalence of mechanical back pain among Suez University students. By assessing the postural alignment and daily habits of a diverse student cohort, this research identifies critical risk factors contributing to spinal discomfort in an academic environment. Our findings highlight the significant impact of postural habits on spinal health and provide a foundation for implementing targeted awareness programs to mitigate the risk of back pain in university populations.',
   
   introduction: { 
     // ... باقي الكود كما هو
-    background: 'Spinal disorders represent a significant burden on healthcare systems and individual quality of life. Recent estimates suggest that approximately 80% of the population experiences spine-related pain at some point in their lives. Traditional rehabilitation approaches often focus on isolated muscle groups, missing the interconnected nature of spinal stability.',
-    objective: 'To evaluate the effectiveness of an integrated postural awareness and core strengthening program in improving spinal health outcomes, functional mobility, and reducing pain in adults with subacute to chronic spinal pain.',
-    significance: 'This research provides evidence for a holistic approach to spine rehabilitation that emphasizes postural education and functional core strengthening, potentially improving clinical outcomes and reducing healthcare costs.'
+    background: 'Back pain is a common musculoskeletal problem among university students, often associated with sedentary lifestyles, prolonged sitting, and poor postural habits. Poor posture can cause muscle imbalance, spinal strain, and pain, while higher postural awareness helps individuals maintain healthier body alignment. Therefore, improving postural awareness may help reduce back pain and promote better musculoskeletal health.',
+    objective: 'To evaluate the correlation between postural awareness, daily postural habits, and the prevalence of back pain among Suez University students.',
+    significance: 'The clinical significance of this study lies in identifying postural awareness as an important factor associated with pain severity among Suez University students. Students with lower levels of postural awareness were more likely to experience moderate to severe pain, while those with higher awareness reported lower pain levels. These findings suggest that interventions aimed at improving postural awareness, such as posture education programs, ergonomic training, and physiotherapy-based awareness exercises, may help reduce pain severity and improve musculoskeletal health among university students. Early identification of students with poor postural awareness may also facilitate preventive strategies to minimize the progression of pain and its impact on daily activities and academic performance.'
   },
 
   methodology: {
     design: 'Randomized controlled trial with parallel group design',
     participants: 186,
     duration: '12 weeks',
-    groups: ['Control group (n=60): Standard physical therapy', 'Intervention group (n=60): Integrated postural awareness and core strengthening program'],
+    
     measurements: [
       'Pain severity (Visual Analog Scale)',
       'Postural awareness (Seated postural alignment assessment)',
@@ -39,7 +39,7 @@ export const researchData = {
     sideEffects: 'No serious adverse events were reported. Minor muscle soreness was reported in 15% of intervention participants, resolving within 48 hours.'
   },
 
-  discussion: 'The significant improvements observed in the intervention group underscore the effectiveness of combining postural awareness training with targeted core strengthening. The integrated approach addresses the neuromuscular control and stabilization systems, leading to superior outcomes compared to traditional isolated muscle training. Our findings align with recent evidence highlighting the importance of proprioceptive training in rehabilitation. The sustained improvements at follow-up suggest that the program fosters long-term behavioral changes in physical activity and postural habits.',
+  discussion: 'This study revealed that Suez University students generally exhibited low levels of postural awareness accompanied by high levels of pain, with the majority of participants reporting moderate to severe pain intensity. Students with lower postural awareness experienced more severe pain, whereas age, gender, and BMI showed no significant relationship. The findings highlight the importance of improving postural awareness and ergonomic behaviors to reduce back pain among university students.',
 
   conclusion: 'This research provides robust evidence that an integrated postural awareness and core strengthening program significantly improves spinal health outcomes. The approach is safe, practical, and can be implemented in various clinical and community settings. These findings have important implications for rehabilitation protocols, suggesting that future clinical practice should emphasize postural education alongside functional core training.',
 

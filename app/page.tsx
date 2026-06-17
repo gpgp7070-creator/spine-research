@@ -5,7 +5,7 @@ import { HeroSection } from '@/components/hero-section'
 import { IntroductionSection } from '@/components/introduction-section'
 import { AbstractSection } from '@/components/abstract-section'
 import { DashboardSection } from '@/components/dashboard-section'
-import { MethodologySection } from '@/components/methodology-section'
+
 import { ResultsSection } from '@/components/results-section'
 import { DiscussionSection } from '@/components/discussion-section'
 import { ConclusionSection } from '@/components/conclusion-section'
@@ -33,7 +33,7 @@ export default function Page() {
         <DashboardSection />
       </div>
       <div id="methodology">
-        <MethodologySection />
+        
       </div>
       <div id="results">
         <ResultsSection />
