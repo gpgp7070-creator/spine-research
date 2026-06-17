@@ -23,11 +23,11 @@ export default function Page() {
         <TeamSection />
       </div>
 
-      <div id="introduction">
-        <IntroductionSection />
-      </div>
       <div id="abstract">
         <AbstractSection />
+      </div>
+      <div id="introduction">
+        <IntroductionSection />
       </div>
       <div id="dashboard">
         <DashboardSection />
