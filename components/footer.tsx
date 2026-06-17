@@ -37,7 +37,7 @@ export function Footer() {
             <h4 className="font-bold text-foreground mb-4">Project</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Graduation Project 2026</li>
-              <li>120 Participants</li>
+              <li>186 Participants</li>
               <li>12 Week Duration</li>
               <li>5 Outcome Measures</li>
             </ul>
@@ -90,7 +90,7 @@ export function Footer() {
           className="border-t border-primary/20 pt-8"
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-            <p>&copy; 2026 Spine Rehabilitation Research. All rights reserved.</p>
+            <p>&copy; 2026 Mechanical back pain was common among the students..</p>
             <p>Graduation Project | Evidence-Based Clinical Research</p>
           </div>
         </motion.div>

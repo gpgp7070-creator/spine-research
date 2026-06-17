@@ -5,12 +5,14 @@ import { ArrowDown } from 'lucide-react'
 
 export function HeroSection() {
   return (
-    <motion.section 
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.8 }}
-      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-b from-background to-background/80 px-4"
-    >
+    // ابحث عن هذا السطر في كودك الحالي:
+<motion.section 
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.8 }}
+  // أضف pt-24 أو pt-32 هنا بدلاً من الـ min-h-screen فقط:
+  className="min-h-screen pt-32 flex flex-col items-center justify-start relative overflow-hidden bg-gradient-to-b from-background to-background/80 px-4"
+>
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
           animate={{
@@ -47,7 +49,7 @@ export function HeroSection() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
         >
-          A comprehensive research study on innovative approaches to spine rehabilitation through integrated postural awareness and core strengthening programs.
+          
         </motion.p>
 
         <motion.div
@@ -60,7 +62,7 @@ export function HeroSection() {
             Graduation Project 2026
           </div>
           <div className="px-6 py-2 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium">
-            120 Participants
+            186 Participants
           </div>
         </motion.div>
 

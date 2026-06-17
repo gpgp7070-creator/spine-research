@@ -15,7 +15,7 @@ export const researchData = {
 
   methodology: {
     design: 'Randomized controlled trial with parallel group design',
-    participants: 120,
+    participants: 186,
     duration: '12 weeks',
     groups: ['Control group (n=60): Standard physical therapy', 'Intervention group (n=60): Integrated postural awareness and core strengthening program'],
     measurements: [
