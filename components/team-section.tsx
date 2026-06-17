@@ -77,7 +77,7 @@ export function TeamSection() {
           </span>
         </h2>
         <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto">
-          Expert professionals dedicated to advancing spine rehabilitation research through innovative methodologies and evidence-based practices
+          The minds behind this research, working together to promote posture awareness at Suez University
         </p>
       </motion.div>
 
