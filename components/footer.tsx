@@ -38,8 +38,8 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Graduation Project 2026</li>
               <li>186 Participants</li>
-              <li>12 Week Duration</li>
-              <li>5 Outcome Measures</li>
+              <li>18-23</li>
+              <li>5PHAS & NRS SCALES</li>
             </ul>
           </motion.div>
 

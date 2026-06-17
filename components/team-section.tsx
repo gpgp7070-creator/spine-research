@@ -7,9 +7,14 @@ interface TeamMember {
   id: number
   name: string
   image: string
+  role?: string
 }
 
 const teamMembers: TeamMember[] = [
+  // 1. إضافة الدكتور المسؤول عن البحث هنا (ليظهر أولاً)
+  { id: 0, name: 'Dr. Dany Alphonse ', image: '/team/doctor-responsible.jpeg', role: 'Under Supervision ' },
+
+  // باقي أعضاء الفريق (تمت إزاحة id ليبدأ من 1)
   { id: 1, name: 'Dr. Reham Ashraf', image: '/team/team-1.jpeg' },
   { id: 2, name: 'Dr. Ahmed Hesham', image: '/team/team-2.jpeg' },
   { id: 3, name: 'Dr. Gehad Hany', image: '/team/team-3.jpeg' },
@@ -81,16 +86,14 @@ export function TeamSection() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: '-100px' }}
-        className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-6"
+        className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-6"
       >
-        {teamMembers.map((member, index) => (
-  <motion.div
-    key={member.id}
-    variants={itemVariants}
-    className={`flex flex-col items-center ${
-      index === 4 ? "md:col-span-2 lg:col-span-5 justify-self-center" : ""
-    }`}
-  >
+        {teamMembers.map((member) => (
+          <motion.div
+            key={member.id}
+            variants={itemVariants}
+            className="flex flex-col items-center"
+          >
             <motion.div
               variants={circleVariants}
               initial="initial"
@@ -131,9 +134,14 @@ export function TeamSection() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.3 + member.id * 0.1 }}
             >
+              {/* تم نقل الـ role ليظهر قبل الاسم */}
+              {member.role && (
+                <p className="text-xs text-primary font-medium mb-1">{member.role}</p>
+              )}
               <h3 className="text-lg md:text-base lg:text-sm font-bold text-foreground mb-2 line-clamp-2">
                 {member.name}
               </h3>
+              
               <div className="flex gap-2 justify-center">
                 <motion.div
                   className="h-1 w-6 bg-primary rounded-full"
