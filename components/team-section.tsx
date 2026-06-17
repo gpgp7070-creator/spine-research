@@ -10,11 +10,11 @@ interface TeamMember {
 }
 
 const teamMembers: TeamMember[] = [
-  { id: 1, name: 'Dr. Reham Ashraf ', image: '/team-1.png' },
-  { id: 2, name: 'Dr. Ahmed Hesham', image: '/team-2.png' },
-  { id: 3, name: 'Dr.Gehad Hany', image: '/team-3.png' },
-  { id: 4, name: 'Dr. Ahmed Magdy', image: '/team-4.png' },
-  { id: 5, name: 'Dr. Toqa Abdal-azez', image: '/team-5.png' }
+  { id: 1, name: 'Dr. Reham Ashraf', image: '/team/team-1.jpeg' },
+  { id: 2, name: 'Dr. Ahmed Hesham', image: '/team/team-2.jpeg' },
+  { id: 3, name: 'Dr. Gehad Hany', image: '/team/team-3.jpeg' },
+  { id: 4, name: 'Dr. Ahmed Magdy', image: '/team/team-4.jpeg' },
+  { id: 5, name: 'Dr. Toqa Abdal-azez', image: '/team/team-5.jpeg' }
 ]
 
 const containerVariants = {

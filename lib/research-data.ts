@@ -3,7 +3,8 @@ export const researchData = {
   authors: ['Graduate Research Team'],
   date: '2026',
   
-  abstract: 'This study investigates the efficacy of integrated postural awareness training combined with targeted core strengthening exercises in improving spinal health outcomes. Using a randomized controlled trial design with 120 participants, we evaluated changes in pain severity, postural mechanics, and functional mobility over a 12-week intervention period. Results demonstrated significant improvements in all measured outcomes, with participants showing 43% reduction in pain severity and 67% improvement in postural awareness scores.',
+  // ابحث عن هذا الجزء داخل ملف researchData
+abstract: 'This study investigates the efficacy of integrated postural awareness training combined with targeted core strengthening exercises in improving spinal health outcomes. Using a randomized controlled trial design with 120 participants, we evaluated changes in pain severity, postural mechanics, and functional mobility over a 12-week intervention period. Results demonstrated significant improvements in all measured outcomes, with participants showing 43% reduction in pain severity and 67% improvement in postural awareness scores.',
   
   introduction: {
     background: 'Spinal disorders represent a significant burden on healthcare systems and individual quality of life. Recent estimates suggest that approximately 80% of the population experiences spine-related pain at some point in their lives. Traditional rehabilitation approaches often focus on isolated muscle groups, missing the interconnected nature of spinal stability.',

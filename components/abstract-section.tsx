@@ -34,9 +34,9 @@ export function AbstractSection() {
           viewport={{ once: true }}
           className="p-8 rounded-2xl border border-primary/20 bg-card backdrop-blur-sm"
         >
-          <p className="text-lg leading-relaxed text-foreground/90 text-justify">
-            {researchData.abstract}
-          </p>
+          <p className="text-base md:text-lg leading-relaxed text-foreground/90 text-justify whitespace-normal break-words">
+  {researchData.abstract}
+</p>
         </motion.div>
       </div>
     </motion.section>
